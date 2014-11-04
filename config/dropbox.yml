@@ -1,0 +1,18 @@
+# app_key: "..."
+# app_secret: "..."
+# access_token: "..."
+# access_token_secret: "..."
+# user_id: "..."
+# access_type: "dropbox|app_folder"
+
+# check the key at www.dropbox.com/developers.
+# App console” section. 
+#“Create app”. 
+#“Dropbox API app” > “files and datastores” > “Yes – my app only needs access to files it creates”
+# set the app name to be “Etsydemoapp”. 
+app_key: "vd9ut3plwrco42a"
+app_secret: "5w18tbulaihvvqs"
+access_token: "qK-HEU1rv5YAAAAAAAAejzl8Ywr4iUpfiK4oDC34zGa7z2-qANaxNNRnrr1O79WN"
+access_token_secret: "..."
+user_id: "..."
+access_type: "app_folder"

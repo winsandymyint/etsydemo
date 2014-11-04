@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 #Use Paper Clip for Image upload
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem "paperclip-dropbox", ">= 1.1.7"
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
@@ -49,3 +50,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+gem 'figaro'
+gem 'devise'
